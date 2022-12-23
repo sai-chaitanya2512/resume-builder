@@ -1,0 +1,260 @@
+.container {
+
+    width: 600px;
+    height: 650px;
+    border: 2px solid;
+    position: relative;
+    .name {
+
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .main {
+        border-bottom: double;
+
+        .jobTitle {
+
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            position: absolute;
+            top: 4%;
+            left: 37%;
+        }
+
+        .adress {
+
+            font-size: 12px;
+
+            text-align: center;
+
+        }
+
+        .phone {
+
+
+            position: absolute;
+            top: 10%;
+            left: 0%;
+            font-size: 13px;
+
+        }
+
+        .email {
+            position: absolute;
+            top: 10%;
+            right: 0%;
+            font-size: 13px;
+
+        }
+    }
+
+    .profile {
+        border-bottom: double;
+       height: 80px;
+        .profileheading {
+
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+         
+        }
+
+        .professionalSummary {
+
+            font-size: 8px;
+
+        }
+    }
+
+    .employmenthistory {
+        border-bottom: double;
+        height: 100px;
+
+        .Employmentheading {
+
+
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+
+        }
+
+        .empcontent {
+            line-height: 0.2rem;
+
+            .employment1 {
+
+                font-size: 10px;
+
+
+            }
+
+            .employment2 {
+                font-size: 8px;
+
+            }
+
+        }
+    }
+
+    .educationhistory {
+        border-bottom: double;
+        height: 100px;
+
+        .Educationeading {
+
+
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+
+        }
+
+        .educontent {
+            line-height: 0.2rem;
+
+            .education1 {
+
+                font-size: 10px;
+
+
+            }
+
+            .education2 {
+                font-size: 8px;
+
+            }
+
+
+        }
+
+
+
+
+    }
+
+    .skills {
+        border-bottom: double;
+        height: 60px;
+
+        .skillheading {
+
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+
+        }
+
+        .skillsset {
+            font-size: 12px;
+            display: grid;
+            grid-template-columns: auto auto;
+
+        }
+
+    }
+
+    .internship{
+        border-bottom: double;
+        height: 100px;
+    
+        .Educationeading {
+    
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+    
+        }
+    
+        .educontent {
+            font-size: 12px;
+           line-height: 0.2rem;
+            .employment1 {
+    
+                font-size: 10px;
+    
+    
+            }
+    
+            .employment2 {
+                font-size: 8px;
+    
+            }
+    
+        }
+    
+    }
+
+    .languages{
+        border-bottom: double;
+        height: 60px;
+    
+        .languagesHedaing {
+    
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+    
+        }
+    
+        .educontent {
+            font-size: 12px;
+           line-height: 0.2rem;
+            .employment1 {
+    
+                font-size: 10px;
+    
+    
+            }
+    
+            .employment2 {
+                font-size: 8px;
+    
+            }
+    
+        }
+    
+    }
+    .reference{
+        height: 100px;
+    
+        .referenceheading {
+    
+            text-align: center;
+            font-weight: 700;
+            background-color: rgba(128, 128, 128, 0.311);
+            border-bottom: double;
+    
+        }
+    
+        .educontent {
+            font-size: 12px;
+           line-height: 0.2rem;
+            .employment1 {
+    
+                font-size: 10px;
+    
+    
+            }
+    
+        }
+    
+    }
+}
+
+
+
+
+
+
+
+
